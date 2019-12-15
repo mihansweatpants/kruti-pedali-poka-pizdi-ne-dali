@@ -1,0 +1,30 @@
+.trackItem {
+  padding: 10px 20px;
+}
+
+.trackItem:hover {
+  background-color: #f6f6f6;
+  cursor: pointer;
+}
+
+.trackName {
+  font-weight: 500;
+}
+
+.trackType {
+  color: #999999;
+  font-size: 12px;
+}
+
+.trackTypeName {
+  margin: 5px 0;
+  display: flex;
+  align-items: baseline;
+}
+
+.trackTypeNameBullet {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
